@@ -14,7 +14,7 @@ body {
     justify-content: center;
     max-height: 100vh;
     margin: 0;
-    background: url(../img/leather_wallpaper.png), no-repeat, fixed, center;
+    background: url(../img/wood_wallpaper.jpg), no-repeat, fixed, center;
 }
 
 h1 {
@@ -34,18 +34,26 @@ form {
     width: 40%;
     background: #401E12;
     text-align: center;
-    margin: 15px auto 25px auto;
+    margin-top: 35px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     display: flex;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.big-screen {
+    flex-direction: column;
+    width: 60%;
+    border: none;
+    background: none;
 }
 
 
 
 .screen {
     cursor: pointer;
-    width: 60%;
+    width: 100%;
     background-color: #593122;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -60,7 +68,7 @@ form {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width: 60%;
+    width: 100%;
 }
 
 .controls .btn {
@@ -92,6 +100,7 @@ form {
 .caption {
     margin-top: 20px;
     background-color: transparent;
+    box-shadow: none;
 }
 
 .btn-caption {
@@ -106,6 +115,7 @@ form {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #333;
 }
 
 .btn-caption:hover {
@@ -115,10 +125,13 @@ form {
 
 @media(max-width: 800px) {
 
-    .screen,
-    .controls,
+    .big-screen,
     .container {
         width: 90%
+    }
+
+    .btn-caption {
+        width: 70%
     }
 
     h1 {
@@ -128,5 +141,7 @@ form {
     img {
         width: 40px;
     }
+
+
 
 }
