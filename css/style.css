@@ -23,17 +23,27 @@ h1 {
     color: #F2C791
 }
 
+img {
+    width: 60px;
+    margin-right: 20px;
+}
+
 .container {
     width: 40%;
     background: #401E12;
     text-align: center;
-    margin: 15px auto 15px auto;
+    margin: 15px auto 25px auto;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
+    display: flex;
 }
+
+
 
 .screen {
     cursor: pointer;
-    width: 50%;
+    width: 60%;
     background-color: #593122;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -48,7 +58,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width: 50%;
+    width: 60%;
 }
 
 .controls .btn {
@@ -86,6 +96,10 @@ h1 {
 
     h1 {
         font-size: 22px;
+    }
+
+    img {
+        width: 40px;
     }
 
 }

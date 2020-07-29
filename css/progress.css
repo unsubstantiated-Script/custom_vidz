@@ -31,37 +31,30 @@ input[type='range']::-ms-track {
 /* Special styling for WebKit/Blink */
 input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
-	border: 1px solid #401E12;
-	height: 36px;
-	width: 16px;
-	border-radius: 3px;
-	background: #F2C791;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	background: url('https://image.flaticon.com/icons/svg/2716/2716728.svg') no-repeat center center/cover;
 	cursor: pointer;
 	margin-top: -14px;
 	/* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
-	box-shadow: 1px 1px 1px #401E12, 0px 0px 1px #0d0d0d;
-	/* Add cool effects to your sliders! */
 }
 
 /* All the same stuff for Firefox */
 input[type='range']::-moz-range-thumb {
-	box-shadow: 1px 1px 1px #401E12, 0px 0px 1px #0d0d0d;
-	border: 1px solid #401E12;
-	height: 36px;
-	width: 16px;
-	border-radius: 3px;
-	background: #F2C791;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	background: url('https://image.flaticon.com/icons/svg/2716/2716728.svg') no-repeat center center/cover;
 	cursor: pointer;
 }
 
 /* All the same stuff for IE */
 input[type='range']::-ms-thumb {
-	box-shadow: 1px 1px 1px #401E12, 0px 0px 1px #0d0d0d;
-	border: 1px solid #401E12;
-	height: 36px;
-	width: 16px;
-	border-radius: 3px;
-	background: #F2C791;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	background: url('https://image.flaticon.com/icons/svg/2716/2716728.svg') no-repeat center center/cover;
 	cursor: pointer;
 }
 
