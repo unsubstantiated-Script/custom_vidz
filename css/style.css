@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     font-family: 'Cabin',
         sans-serif;
@@ -26,6 +24,10 @@ h1 {
 img {
     width: 60px;
     margin-right: 20px;
+}
+
+form {
+    width: 100%;
 }
 
 .container {
@@ -84,6 +86,31 @@ img {
 .controls .timestamp {
     margin-left: 5px;
     font-weight: bold;
+}
+
+
+.caption {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.btn-caption {
+    color: #F2C791;
+    border: transparent;
+    font-size: 16px;
+    width: 30%;
+    background: #401E12;
+    text-align: center;
+    margin: 15px auto 25px auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn-caption:hover {
+    background: #BF834E;
+    color: #401E12;
 }
 
 @media(max-width: 800px) {
